@@ -1,0 +1,39 @@
+C:\Users\Doherty\Documents\GitHub\LegendCraft\bin\Release\ConfigGUI.exe.config
+C:\Users\Doherty\Documents\GitHub\LegendCraft\bin\Release\ConfigGUI.exe
+C:\Users\Doherty\Documents\GitHub\LegendCraft\bin\Release\ConfigGUI.pdb
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.ChatPreview.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.ColorPicker.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.KeywordPicker.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.MainForm.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.AddWorldPopup.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.DeleteRankPopup.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.PermissionLimitBox.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.Properties.Resources.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.TextEditorPopup.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\fCraft.ConfigGUI.UpdaterSettingsPopup.resources
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\ConfigGUI.exe
+C:\Users\Doherty\Documents\GitHub\LegendCraft\ConfigGUI\obj\Release\ConfigGUI.pdb
+C:\Users\Doherty\Desktop\LegendCraft RPG\bin\Release\ConfigGUI.exe.config
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\ConfigGUI.exe
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\ConfigGUI.pdb
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.ChatPreview.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.ColorPicker.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.KeywordPicker.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.MainForm.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.AddWorldPopup.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.DeleteRankPopup.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.PermissionLimitBox.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.Properties.Resources.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.TextEditorPopup.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\fCraft.ConfigGUI.UpdaterSettingsPopup.resources
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Doherty\Desktop\LegendCraft RPG\ConfigGUI\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Doherty\Desktop\LegendCraft RPG\bin\Release\ConfigGUI.exe
+C:\Users\Doherty\Desktop\LegendCraft RPG\bin\Release\ConfigGUI.pdb
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\ConfigGUI.exe.config
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ConfigGUI\obj\Release\ConfigGUI.exe
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ConfigGUI\obj\Release\ConfigGUI.pdb

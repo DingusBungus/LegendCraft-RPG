@@ -1,0 +1,10 @@
+C:\Users\Doherty\Desktop\LegendCraft RPG\bin\release\fCraft.dll
+C:\Users\Doherty\Desktop\LegendCraft RPG\bin\release\fCraft.pdb
+C:\Users\Doherty\Desktop\LegendCraft RPG\fCraft\obj\Release\fCraft.dll
+C:\Users\Doherty\Desktop\LegendCraft RPG\fCraft\obj\Release\fCraft.pdb
+C:\Users\Doherty\Desktop\LegendCraft RPG\fCraft\obj\Release\fCraft.csprojResolveAssemblyReference.cache
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\release\fCraft.dll
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\release\fCraft.pdb
+C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Release\fCraft.csprojResolveAssemblyReference.cache
+C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Release\fCraft.dll
+C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Release\fCraft.pdb

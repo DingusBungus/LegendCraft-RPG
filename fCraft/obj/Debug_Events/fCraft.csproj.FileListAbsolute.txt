@@ -1,0 +1,4 @@
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\fCraft.dll
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\fCraft.pdb
+C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Debug_Events\fCraft.dll
+C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Debug_Events\fCraft.pdb

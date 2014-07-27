@@ -1,0 +1,11 @@
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\ServerGUI.exe.config
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\ServerGUI.csprojResolveAssemblyReference.cache
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\fCraft.ServerGUI.MainForm.resources
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\fCraft.ServerGUI.PlayerViewer.resources
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\fCraft.ServerGUI.Properties.Resources.resources
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\fCraft.ServerGUI.UpdateWindow.resources
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\ServerGUI.csproj.GenerateResource.Cache
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\ServerGUI.exe
+C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\ServerGUI.pdb
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\ServerGUI.exe
+C:\Users\Doherty\Dropbox\LegendCraft RPG\ServerGUI\obj\Release\ServerGUI.pdb
