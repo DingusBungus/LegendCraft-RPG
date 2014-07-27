@@ -1,0 +1,378 @@
+LEVELABLE ATTRIBUTES
+------------------------------------------------------------------------------------------------------------------------------------
+
+NOTE: Base stats determine max stats later down the line (10 * Base Stats) + 50, with the exception of Luck and Wisdom, which max at 100
+Also, max stats can be affected by abilities - Ex. Trolls have 15% higher Vitality potential: Max Level = ((10 * Base) + 50) * 1.15 
+
+Vitality       //amt of health
+Strength       //strength attack
+Defence        //strength defence
+Mana           //amt of mana
+Elemental      //magic attack
+MagicDefence   //magic defence
+Focus          //skill attack
+Agility        //skill defence
+Wisdom         //determines what spells they can learn (possibly cause race ascension later)
+Luck           //influences crit chance (possibly avoidance of spells later)
+
+RACES
+------------------------------------------------------------------------------------------------------------------------------------
+
+ HUMAN - Neutral Alignment, Completely Balanced Build (ID 0)
+	Vitality       - Base: 3
+	Strength       - Base: 3       
+	Defence        - Base: 3       
+	Mana           - Base: 3     
+	Elemental      - Base: 3     
+	MagicDefence   - Base: 3
+	Focus          - Base: 3
+	Agility        - Base: 3
+	Wisdom         - Base: 3
+	Luck           - Base: 3
+
+ ELF - Good Alignment, Balanced Focus build (ID 1)
+	Vitality       - Base: 4
+	Strength       - Base: 2       
+	Defence        - Base: 3       
+	Mana           - Base: 3     
+	Elemental      - Base: 2     
+	MagicDefence   - Base: 4
+	Focus          - Base: 4
+	Agility        - Base: 3
+	Wisdom         - Base: 3
+	Luck           - Base: 2
+
+ WIZARD - Good Alignment, Balanced Elemental build (ID 2)
+	Vitality       - Base: 3
+	Strength       - Base: 3       
+	Defence        - Base: 3      
+	Mana           - Base: 3    
+	Elemental      - Base: 5     
+	MagicDefence   - Base: 4
+	Focus          - Base: 2
+	Agility        - Base: 2
+	Wisdom         - Base: 3
+	Luck           - Base: 2
+
+ BASH - Evil Alignment, Balanced Strength build (ID 3)
+	Vitality       - Base: 4
+	Strength       - Base: 5       
+	Defence        - Base: 3      
+	Mana           - Base: 3    
+	Elemental      - Base: 2     
+	MagicDefence   - Base: 3
+	Focus          - Base: 2
+	Agility        - Base: 3
+	Wisdom         - Base: 3
+	Luck           - Base: 2
+
+ PHILOSOPHER - Good Alignment, Elemental/Focus Combo Build (ID 4)
+	Vitality       - Base: 3
+	Strength       - Base: 1       
+	Defence        - Base: 1      
+	Mana           - Base: 4    
+	Elemental      - Base: 6     
+	MagicDefence   - Base: 3
+	Focus          - Base: 6
+	Agility        - Base: 1
+	Wisdom         - Base: 3
+	Luck           - Base: 2
+
+ DROOG - Evil Alignment, Strength/Focus Combo Build (ID 5)
+	Vitality       - Base: 3
+	Strength       - Base: 6       
+	Defence        - Base: 1      
+	Mana           - Base: 4    
+	Elemental      - Base: 1     
+	MagicDefence   - Base: 2
+	Focus          - Base: 6
+	Agility        - Base: 1
+	Wisdom         - Base: 3
+	Luck           - Base: 3
+
+ LAYTHEN - Good Alignment, Elemental/Strength Combo Build (ID 6)
+	Vitality       - Base: 3
+	Strength       - Base: 6       
+	Defence        - Base: 1      
+	Mana           - Base: 4    
+	Elemental      - Base: 6     
+	MagicDefence   - Base: 3
+	Focus          - Base: 1
+	Agility        - Base: 1
+	Wisdom         - Base: 3
+	Luck           - Base: 2
+
+ THIEF - Evil Alignment, Heavy Focus Build (ID 7)
+	Vitality       - Base: 3
+	Strength       - Base: 1       
+	Defence        - Base: 2      
+	Mana           - Base: 3    
+	Elemental      - Base: 1     
+	MagicDefence   - Base: 2
+	Focus          - Base: 7
+	Agility        - Base: 5
+	Wisdom         - Base: 3
+	Luck           - Base: 3
+
+ TROLL - Evil Alignment, Heavy Strength Build (ID 8)
+	Vitality       - Base: 6
+	Strength       - Base: 6       
+	Defence        - Base: 6      
+	Mana           - Base: 3    
+	Elemental      - Base: 2     
+	MagicDefence   - Base: 2
+	Focus          - Base: 1
+	Agility        - Base: 1
+	Wisdom         - Base: 1
+	Luck           - Base: 2
+
+ AVATAR - Good Alignment, Heavy Elemental Build (ID 9)
+	Vitality       - Base: 3
+	Strength       - Base: 2       
+	Defence        - Base: 2      
+	Mana           - Base: 4    
+	Elemental      - Base: 6     
+	MagicDefence   - Base: 5
+	Focus          - Base: 2
+	Agility        - Base: 1
+	Wisdom         - Base: 3
+	Luck           - Base: 2
+  
+	
+RACE ABILITIES (as found in Race.cs)
+------------------------------------------------------------------------------------------------------------------------------------
+
+// NOTE: All good races by default have a lower resist to fire, and evil by default have a lower resist to ice
+                    // - May remove functionalities having to do with individual attribute damage inc/dec (a major hassle)
+//RACE              //-------ABILITIES----------------------------------------------------------------------------------------------
+Human = 0,          //Set as 'neutral' alignment; doesn't do fire/ice damage (no weaknesses/no strengths)
+Elf = 1,            //10s Invisibility/1 min cooldown - 15% lower focus potential
+Wizard = 2,         //Takes 20% lower damage from Elemental sources - takes 20% higher strength damage
+Bash = 3,           //Lower cooldowns by 25% - 20% Lower Fire damage and 20% lower Ice resist
+Philosopher = 4,    //30% Magic Resist - 20% lower Strength resist
+Droog = 5,          //All buffs last 5s longer + all buffs known from start - 15% lower Health potential
+Laythen = 6,        //All effects are augmented (More health from /heal, does more damage with /poison, takes more damage from effects)
+Thief = 7,          //5% Higher Crit potential - 15% lower defence potential
+Troll = 8,          //15% Higher Strength, Vitality and Defence potentials - 25% lower Wisdom, Luck, MagicDefence, and Agility potentials
+Avatar = 9,         //Invincibility for 5s, 2m cooldown - 15% lower defence potential in all areas
+Undefined = 255     //--------------------------------------------------------------------------------------------------------------
+
+
+ATTRIBUTES (as found in Race.cs)
+------------------------------------------------------------------------------------------------------------------------------------
+
+Vitality,       //amt of health
+Strength,       //strength attack
+Defence,        //strength defence
+Mana,           //amt of mana
+Elemental,      //magic attack
+MagicDefence,   //magic defence
+Focus,          //skill attack
+Agility,        //skill defence
+Wisdom,         //determines what spells they can learn (possibly cause race ascension later)
+Luck            //influences crit chance (possibly avoidance of spells later)
+
+
+SPELL GUIDE (as found in SpellUtils.cs)
+------------------------------------------------------------------------------------------------------------------------------------
+
+/* -- SPELL GUIDE ----------------------------------------------------------------
+ * The idea is to have attacks do a certain amount of each type of damage 
+ * and include the defence of each type of damage in the calculation.
+ * -------------------------------------------------------------------------------
+ * The attacks should be made of three types of damages:
+ *  - Strength
+ *  - Elemental
+ *  - Skill
+ *  
+ * Each damage type has separate scaling attributes and separate defence attributes
+ * all of which should be taken into account with each spell/attack
+ * --------------------------------------------------------------------------------
+ * - Each damage type needs to take into account the buffs, which scale the individual
+ * calculations of damage. 
+ * - The spells then take into account the Critical Hit chance and damage by testing 
+ * the bool Crit(Player player). If it returns true, the fully summed damage in the 
+ * end should be multiplied by 1.25 before returning to the spell which called the 
+ * damage method.
+ * --------------------------------------------------------------------------------
+ * Ballpark figures for spells and damage calculations for each damage type:
+ * 
+ * - Very Strong attacks: 1.0 Defence: 0.5 (on primary damage calc, half defence)
+ * - Strong attacks: .75      Defence: 0.375  
+ * - Medium attacks: .5       Defence: 0.25  
+ * - Weak attacks: .05-.25    Defence: 0.05-0.25 (on subs, same defence as attack) 
+ * - N/A: 0 - ex. an attack like Body Slam would have 0 elemental damage.
+ * 
+ * NOTE: All damage scales directly from attribute levels so 1 times multipliers 
+ * should not be coupled with other high multipliers on other damage types (OP) 
+ * ---------------------------------------------------------------------------------
+ * - Possible Attack layouts to prevent OP spells:
+ * OP Spells (~80+ Wisdom)
+ * 1.25:0:0; 1:0.25:0.25; 0.75:0.5:0.5;
+ * Strong Spells (~60+ Wisdom)
+ * 0.75:0:0; 0.5:0.25:0.25; 0.5:0.5:0;
+ * Medium Spells (~40+ Wisdom)
+ * 0.5:0:0; 1.0:0.5:0; 1.0:0.25:0.25;
+ * Noob Spells (~20+ Wisdom)
+ * 0.25:0.15:0; .15:0.15:0.15; 0.4:0.1:0;
+ * Weak Spells (~0+ Wisdom)
+ * 0.25:0:0; 0.15:0.15:0; 0.2:0.1:0;
+ * NOTE: All spells have base damage!
+ * ---------------------------------------------------------------------------------
+
+DAMAGE CALCULATIONS FOR ALL SPELLS (will be updated when more are added)
+------------------------------------------------------------------------------------------------------------------------------------
+
+- CRITICALS
+
+/// <summary> Crit chance - max at 26% - Scales .25 per luck level | For thief race, max at 31% - Scales normally </summary> 
+        public static bool Crit(Player player)                                
+        {
+            Random rand = new Random();
+            rand.Next(0, 400 - player.Info.Luck * 4);
+            double randomNum = rand.NextDouble(); //gen random number between 0.0 and 1.0
+            randomNum *= 100; //convert to percent (0.0 to 100.0)
+            if (player.Info.race.ID() == (byte)ERaces.Thief && randomNum < (6 + player.Info.Luck * 0.25))
+            {   //For Thieves: y = 0.25x + 6 where y is Crit%, x is Luck
+                player.World.Players.Message("{0}&f has landed a &cCritical&f blow!", player.ClassyName);
+                return true;
+            }
+            if (randomNum < (1 + player.Info.Luck * 0.25)) //y = 0.25x + 1 where y is crit percent, x is Luck level
+            {
+                player.World.Players.Message("{0}&f has landed a &cCritical&f blow!", player.ClassyName);
+                return true;
+            }
+            return false;
+        }                                            
+- DAMAGE CALCULATIONS FOR EACH SPELL
+
+        //full strength attack
+        public static double BodySlamDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+            double strDmg = (damager.Info.Strength * (damager.isStrengthBuffed ? 0.5 * 1.25 : 0.5) - target.Info.Defence * .25); //Strength stat - target's defence
+            if (strDmg < 0) strDmg = 0; //no negs that take away from other damage types
+
+            double damage = strDmg + 10;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        //high strength, elemental sub, (either high cooldown or hard to land)
+        public static double CannonDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+            double strDmg = (damager.Info.Strength * (damager.isStrengthBuffed ? 0.75 * 1.25 : 0.75) - target.Info.Defence * .5); //Strength stat - target's defence
+            if (strDmg < 0) strDmg = 0; //no negs that take away from other damage types
+
+            double elDmg = (damager.Info.Elemental * (damager.isElementalBuffed ? 0.25 * 1.25 : 0.25) - target.Info.MagicDefence * .25);
+            if (elDmg < 0) elDmg = 0;
+
+            double damage = strDmg + elDmg + 20;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        //heavy elemental, strength sub
+        public static double EarthQuakeDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+            double strDmg = (damager.Info.Strength * (damager.isStrengthBuffed ? 0.25 * 1.25 : 0.25) - target.Info.Defence * .25); //Strength stat - target's defence
+            if (strDmg < 0) strDmg = 0; //no negs that take away from other damage types
+
+            double elDmg = (damager.Info.Elemental * (damager.isElementalBuffed ? 0.75 * 1.25 : 0.75) - target.Info.MagicDefence * 0.5);
+            if (elDmg < 0) elDmg = 0;
+
+            double damage = strDmg + elDmg + 15;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        //weaker elemental spell, focus sub, low cooldown
+        public static double ElementalSpearDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+
+            double elDmg = (damager.Info.Elemental * (damager.isElementalBuffed ? 0.5 * 1.25 : 0.5) - target.Info.MagicDefence * 0.25);
+            if (elDmg < 0) elDmg = 0;
+
+            double skillDmg = (damager.Info.Focus * (damager.isFocusBuffed ? 0.1 * 1.25 : 0.1) - target.Info.Agility * 0.1);
+            if (skillDmg < 0) skillDmg = 0;
+
+            double damage = skillDmg + elDmg + 5;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        //mid elemental with focus sub
+        public static double InfernalWrathDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+
+            double elDmg = (damager.Info.Elemental * (damager.isElementalBuffed ? 0.5 * 1.25 : 0.5) - target.Info.MagicDefence * 0.25);
+            if (elDmg < 0) elDmg = 0;
+
+            double skillDmg = (damager.Info.Focus * (damager.isFocusBuffed ? 0.2 * 1.25 : 0.2) - target.Info.Agility * 0.2);
+            if (skillDmg < 0) skillDmg = 0;
+
+            double damage = 10 + skillDmg + elDmg;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        //strong strength, focus sub
+        public static double PunchDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+            double strDmg = (damager.Info.Strength * (damager.isStrengthBuffed ? 0.6 * 1.25 : 0.6) - target.Info.Defence * 0.3);
+            if (strDmg < 0) strDmg = 0; //no negs that take away from other damage types
+
+            double skillDmg = (damager.Info.Focus * (damager.isFocusBuffed ? 0.2 * 1.25 : 0.2) - target.Info.Agility * 0.2);
+            if (skillDmg < 0) skillDmg = 0;
+
+            double damage = strDmg + skillDmg + 15;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        // OP but drains all mana and cuts health by 75% of max
+        /// <param name="damager"> Player doing the damage </param>
+        /// <param name="target"> Player receiving the damage </param>
+        public static double SelfDestructDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+            double strDmg = (damager.Info.Strength * (damager.isStrengthBuffed ? 2.5 * 1.25 : 2.5) - target.Info.Defence * 0.75);
+            if (strDmg < 0) strDmg = 0; //no negs that take away from other damage types
+
+            double elDmg = (damager.Info.Elemental * (damager.isElementalBuffed ? 0.5 * 1.25 : 0.5) - target.Info.MagicDefence * 0.1);
+            if (elDmg < 0) elDmg = 0;
+
+            double skillDmg = (damager.Info.Focus * (damager.isFocusBuffed ? 0.5 * 1.25 : 0.5) - target.Info.Agility * 0.1);
+            if (skillDmg < 0) skillDmg = 0;
+
+            double damage = strDmg + skillDmg + elDmg;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }
+        //mid/weak elemental 
+        public static double FissureDamage(Player damager, Player target)
+        {
+            if (target.Immortal)
+                return 0;
+
+            double elDmg = (damager.Info.Elemental * (damager.isElementalBuffed ? 0.5 * 1.25 : 0.5) - target.Info.MagicDefence * 0.25);
+            if (elDmg < 0) elDmg = 0;
+
+            double damage = elDmg + 10;
+            if (damage < 0) return 0;
+
+            return Crit(damager) ? damage * 1.25 : damage;
+        }

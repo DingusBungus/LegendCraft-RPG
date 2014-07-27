@@ -1,16 +1,27 @@
-LegendCraft v2.2.0 Roadmap
-[x]Create full mono support
-[] Finish CPE support
--[]Test EnvWeatherAppearance when it is supported
--[x]Add SetClickDistance support
-[x]Add voice commands (the server software talks to the owner via audio)-not for mono
-[x]Edit Rules, Swears, Announcements, and Greeting ingame
-[]Work on a generator to create autorank.xml's
-[]Remove WOMDirect button from config and remove heartbeat capability (no longer supported)
-[]Finish autorank system
-[]Test and fix up FFA/TDM/Infection (mainly timing issues)
-[x]Add /GameStats
-[x]Add /List HaxOff
-[x]Make hax togglable per world
-[x]Seduce Women, Obtain Currency <-- fo sho
-[]More to come
+LegendCraft RPG v1.0.0
+
+LOTS TO DO!
+
+[] - Complete 25 working spells before first release (about 12 fully operational, 16 or so in the works)
+[x] - Have 10 working and distinct Races
+[x] - Enable leveling up (new /lvl cmd)
+[] - Create interface implementations of SpellBehaviors with IParticleBehavior
+      - Will allow for easier custom movement, better spell implementation, less lag
+[] - Totally overhaul animations for all spells except for SelfDestruct, rely on Physics,
+      implement interface structure in the Physics.cs, remove all player I/O loop stops that
+      cause tons of lag for animations. 
+[] - Start work on adding bots and AI
+[] - Fix SelfDestruct and hit detection on ES and Fissure
+[] - Implement HotKeys for spells (when client supports)
+[] - Implement Hack Control 
+[] - Implement MessageTypes to construct a decent HUD with Health/Mana bars, XP/Points, Cooldowns?, Effects and damage
+     as announcement message types (ofc when client supports)
+[] - Finish Regen spell
+[] - Remove ability to place/remove blocks except in spells, allow OPs to place/remove blocks no matter what
+	- Possibly remove rank system for simple OP/normal user system
+[] - Implement use of Wisdom attribute to learn spells - custom for each Race. Currently all races can use all spells at all times.
+	- Ex. Strength based Races learn strength moves before skill based Races, etc.
+[] - Put all ToDos in one place (they are currently scattered in different files)
+[x] - Create a guide file for spell creation, damage, races info and more.
+[] - Finish hardcoding abilities
+[] - Optional: Ascension? Special Abilities? Wisdom factors? Generalize assignment of races, efficiency, efficiency, efficiency

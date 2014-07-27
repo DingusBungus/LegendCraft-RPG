@@ -24,16 +24,16 @@ namespace fCraft
     {                       // NOTE: All good races by default have a lower resist to fire, and evil by default have a lower resist to ice
                             // - May remove functionalities having to do with individual attribute damage inc/dec (a major hassle)
         //RACE              //-------ABILITIES----------------------------------------------------------------------------------------------
-        Human = 0,          //[] Set as 'neutral' alignment; doesn't do fire/ice damage (no weaknesses/no strengths)
+        Human = 0,          //[ / ] Set as 'neutral' alignment; doesn't do fire/ice damage (no weaknesses/no strengths)
         Elf = 1,            //[x] 10s Invisibility/1 min cooldown - 15% lower focus potential
-        Wizard = 2,         //[] Takes 20% lower damage from Elemental sources - takes 20% higher strength damage
-        Bash = 3,           //[] Lower cooldowns by 25% - 20% Lower Fire damage and 20% lower Ice resist
-        Philosopher = 4,    //[] 30% Magic Resist - 20% lower Strength resist
-        Droog = 5,          //[x/o/x] All buffs last 5s longer + all buffs known from start - 15% lower Health potential
+        Wizard = 2,         //[ / ] Takes 20% lower damage from Elemental sources - takes 20% higher strength damage
+        Bash = 3,           //[ / ] Lower cooldowns by 25% - 20% Lower Fire damage and 20% lower Ice resist
+        Philosopher = 4,    //[ / ] 30% Magic Resist - 20% lower Strength resist
+        Droog = 5,          //[x/ /x] All buffs last 5s longer + all buffs known from start - 15% lower Health potential
         Laythen = 6,        //[] All effects are augmented (More health from /heal, does more damage with /poison, takes more damage from effects)
         Thief = 7,          //[x] 5% Higher Crit potential - 15% lower defence potential
         Troll = 8,          //[x] 15% Higher Strength, Vitality and Defence potentials - 25% lower Wisdom, Luck, MagicDefence, and Agility potentials
-        Avatar = 9,         //[o/x] Invinsibility for 5s, 2m cooldown - 15% lower defence potential in all areas
+        Avatar = 9,         //[ /x] Invincibility for 5s, 2m cooldown - 15% lower defence potential in all areas
         Undefined = 255     //--------------------------------------------------------------------------------------------------------------
     }
 
@@ -464,6 +464,8 @@ namespace fCraft
     #endregion
 
     #region Race Utils
+
+    //Mostly conversions from IRaces to ERaces
 
     public class Race
     {
