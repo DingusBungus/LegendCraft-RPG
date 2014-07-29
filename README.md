@@ -2,14 +2,10 @@
 #LegendCraft
 ![LegendCraft](http://i.imgur.com/YNPR6p0.png "Ya it's a logo deal with it")<br />
 
-Download the latest LegendCraft Beta release here: 
-http://www.mediafire.com/download/bldmn06tnim5z7i/LegendCraft%20Template%20v2.2.0%20BETA.zip
-
-Dowload the latest LegendCraft stable release here: 
-http://www.mediafire.com/download/t0v616d969owfek/LegendCraft%20Template%20v2.1.1.zip
+LegendCraft RPG is a new software (not nearly complete) that turns ClassiCube into an RPG. There are spells, races, levelable stats, and various race abilities. The hope is to add AI, an economy, virtual inventory and/or quests. To help with the project, contact DingusBungus on the #LegendCraft irc channel (Esper) or post an issue and mention wanting to join in this repository.
 
 View all LegendCraft releases:
-https://www.mediafire.com/folder/oy3rdjfanvdt7/LegendCraft%20Releases
+https://github.com/LeChosenOne/LegendCraft/releases
 
 Thank you for downloading LegendCraft, a custom Minecraft/ClassiCube server based on fCraft and 800craft.
 
