@@ -2,7 +2,7 @@
 #LegendCraft
 ![LegendCraft](http://i.imgur.com/YNPR6p0.png "Ya it's a logo deal with it")<br />
 
-LegendCraft RPG is a new software (not nearly complete) that turns ClassiCube into an RPG. There are spells, races, levelable stats, and various race abilities. The hope is to add AI, an economy, virtual inventory and/or quests. To help with the project, contact DingusBungus on the #LegendCraft irc channel (Esper) or post an issue and mention wanting to join in this repository.
+LegendCraft RPG is a new software (not nearly complete) that turns ClassiCube into an RPG. There are spells, races, levelable stats, and various race abilities. The hope is to add AI, an economy, virtual inventory, a full HUD and/or quests. To help with the project, contact DingusBungus on the #LegendCraft irc channel (Esper) or post an issue and mention wanting to join in this repository.
 
 View all LegendCraft releases:
 https://github.com/LeChosenOne/LegendCraft/releases
