@@ -1,6 +1,16 @@
-﻿Thank you for downloading LegendCraft, a custom Minecraft server based on fCraft and 800craft.
+LegendCraft RPG is a new software (not nearly complete) that turns ClassiCube into an RPG. 
+There are spells, races, levelable stats, and various race abilities. 
+The hope is to add AI, an economy, virtual inventory, a full HUD and/or quests. 
 
-Special thanks to fragmer, for creating fCraft! Special thanks to Jonty800, GlennMR and LaoTszy for creating 800Craft!
+To help with the project, contact DingusBungus on the #LegendCraft irc channel (Esper) 
+ or post an issue and mention wanting to join on the GitHub page for the project:
+ https://github.com/DingusBungus/LegendCraft-RPG
+
+View all LegendCraft releases: https://github.com/LeChosenOne/LegendCraft/releases
+
+Thank you for downloading LegendCraft, a custom Minecraft/ClassiCube server based on fCraft and 800craft.
+
+Special thanks to fragmer, for creating fCraft! Special thanks to Jonty800, GlennMR and LaoTszy for their hard
 LegendCraft is a modified version of 800Craft. LegendCraft configGUIs and serverGUIs were moddeled after 800Craft's.
 
 
