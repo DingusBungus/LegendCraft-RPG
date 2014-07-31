@@ -25,7 +25,7 @@ namespace fCraft
                             // - May remove functionalities having to do with individual attribute damage inc/dec (a major hassle)
         //RACE              //-------ABILITIES----------------------------------------------------------------------------------------------
         Human = 0,          //[ / ] Set as 'neutral' alignment; doesn't do fire/ice damage (no weaknesses/no strengths)
-        Elf = 1,            //[x] 10s Invisibility/1 min cooldown - 15% lower focus potential
+        Elf = 1,            //[ /x] 10s Invisibility/1 min cooldown - 15% lower focus potential
         Wizard = 2,         //[ / ] Takes 20% lower damage from Elemental sources - takes 20% higher strength damage
         Bash = 3,           //[ / ] Lower cooldowns by 25% - 20% Lower Fire damage and 20% lower Ice resist
         Philosopher = 4,    //[ / ] 30% Magic Resist - 20% lower Strength resist
@@ -520,6 +520,7 @@ namespace fCraft
                 case "avatar":                  return new Avatar();
                 case "bash":                    return new Bash();
                 case "droog":                   return new Droog();
+                case "elv":
                 case "elf":                     return new Elf();
                 case "human":                   return new Human();
                 case "laythen":                 return new Laythen();

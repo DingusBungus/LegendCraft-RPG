@@ -8,3 +8,8 @@ C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Debug\fCraft.pdb
 C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Debug\fCraft.csprojResolveAssemblyReference.cache
 C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Debug\fCraft.dll
 C:\Users\Doherty\Dropbox\LegendCraft RPG\fCraft\obj\Debug\fCraft.pdb
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\bin\Debug\fCraft.dll
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\bin\Debug\fCraft.pdb
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\fCraft\obj\Debug\fCraft.csprojResolveAssemblyReference.cache
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\fCraft\obj\Debug\fCraft.dll
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\fCraft\obj\Debug\fCraft.pdb

@@ -37,3 +37,6 @@ C:\Users\Doherty\Desktop\LegendCraft RPG\bin\Release\ConfigGUI.pdb
 C:\Users\Doherty\Dropbox\LegendCraft RPG\bin\Release\ConfigGUI.exe.config
 C:\Users\Doherty\Dropbox\LegendCraft RPG\ConfigGUI\obj\Release\ConfigGUI.exe
 C:\Users\Doherty\Dropbox\LegendCraft RPG\ConfigGUI\obj\Release\ConfigGUI.pdb
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\bin\Release\ConfigGUI.exe.config
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\ConfigGUI\obj\Release\ConfigGUI.exe
+C:\Users\Doherty\Documents\GitHub\LegendCraft-RPG\ConfigGUI\obj\Release\ConfigGUI.pdb
